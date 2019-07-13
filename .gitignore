@@ -65,3 +65,7 @@ typings/
 dist/
 
 elm-stuff/
+
+.idea/
+
+package-lock.json

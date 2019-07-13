@@ -1,37 +1,15 @@
 module Main exposing (main)
 
-import Html exposing (..)
 import Browser exposing (sandbox)
+import Model.Model exposing (Model, init)
+import Msg.Message exposing (Msg, update)
+import View.View exposing (view)
 
-main: Program () Model Msg
+
+main : Program () Model Msg
 main =
     Browser.sandbox
         { init = init
         , view = view
         , update = update
-    }
-
--- Model
-
-type alias Model =
-    {
-    }
-
-init : Model
-init = 
-    {}
-
--- Update
-
-type Msg
-    = Msg1
-
-update : Msg -> Model -> Model
-update msg model =
-    model
-
-
-view : Model -> Html Msg
-view model =
-    div []
-        [ h1 [] [ text "Hello World!" ] ]
+        }
