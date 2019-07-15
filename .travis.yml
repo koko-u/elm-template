@@ -1,5 +1,4 @@
 language: node.js
 node_js:
   - 10
-  - 12
 script: npm test -- --fuzz 100 --seed 932043842324
