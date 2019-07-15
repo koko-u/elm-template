@@ -1,0 +1,5 @@
+language: node.js
+node_js:
+  - 10
+  - 12
+script: npm test
