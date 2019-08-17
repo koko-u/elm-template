@@ -9,7 +9,7 @@ import Msg.Message exposing (Msg)
 view : Model -> Html Msg
 view model =
     div []
-        [ div [ class "hero" ]
+        [ div [ class "hero is-light" ]
             [ div [ class "hero-body" ]
                 [ div [ class "container" ]
                     [ h1 [ class "title" ]
