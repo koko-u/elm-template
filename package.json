@@ -6,7 +6,7 @@
   "description": "Small Elm project template using parcel",
   "main": "index.html",
   "scripts": {
-    "parcel": "parcel index.html",
+    "parcel": "parcel index.html --port=3000",
     "test": "elm-test"
   },
   "repository": {},
